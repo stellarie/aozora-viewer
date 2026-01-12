@@ -22,12 +22,15 @@
       <div id="viewer-author" class="viewer-author"></div>
       <div class="search">
         <label for="page-search-input">作品：</label>
-        <input id="page-search-input" class="page=search-input" type="text" placeholder="https://aozora.gr.jp/cards/...">
+        <input id="page-search-input" class="page-search-input" type="text" placeholder="https://aozora.gr.jp/cards/...">
         <button onclick="loadPage(document.getElementById('page-search-input').value)">今すぐ探索</button>
+        <button onclick="savePage()">保存</button>
+        <button onclick="showLibrary()">本棚</button>
       </div>
     </div>
     <div id="loading" class="loading">お待ち下さい…</div>
     <div id="reader" class="reader"></div>
+    <div id="library" class="library"></div>
   </div>
   <script src="js/app.js"></script>
 </body>
