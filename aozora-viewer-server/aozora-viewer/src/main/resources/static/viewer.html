@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>aozora-viewer</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="/hironui.png" sizes="any">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div class="container">
+    <div id="header" class="header">
+      <div>書名</div>
+      <div id="viewer-title" class="viewer-title"></div>
+      <div>作家</div>
+      <div id="viewer-author" class="viewer-author"></div>
+      <div class="search">
+        <label for="page-search-input">作品：</label>
+        <input id="page-search-input" class="page=search-input" type="text" placeholder="https://aozora.gr.jp/cards/...">
+        <button onclick="loadPage(document.getElementById('page-search-input').value)">今すぐ探索</button>
+      </div>
+    </div>
+    <div id="loading" class="loading">お待ち下さい…</div>
+    <div id="reader" class="reader"></div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
