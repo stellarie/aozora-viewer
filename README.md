@@ -14,3 +14,6 @@ this is a todo list
 ## hosting
 - cloud provider should be free or low-cost
 - cloud provider should support spring boot/kotlin
+
+<img width="2560" height="1049" alt="image" src="https://github.com/user-attachments/assets/0916f3cd-ff9b-4751-8976-c4889faa522f" />
+<img width="2507" height="1006" alt="image" src="https://github.com/user-attachments/assets/59439550-87d8-4e3a-9beb-bf1c44e07ace" />
